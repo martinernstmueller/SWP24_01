@@ -1,2 +1,8 @@
-﻿Console.WriteLine("Bitte geben Sie eine Zeichenkette ein: ");
-// ToDo: Read in from Consol...
+﻿Console.WriteLine("----");
+String s;
+do
+{
+    s = Console.ReadLine();
+    Console.WriteLine("Line {0}", s);
+} while (s != "end");
+Console.WriteLine("---");
