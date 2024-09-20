@@ -1,2 +1,2 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, SWP!!");
+﻿Console.WriteLine("Bitte geben Sie eine Zeichenkette ein: ");
+// ToDo: Read in from Consol...
