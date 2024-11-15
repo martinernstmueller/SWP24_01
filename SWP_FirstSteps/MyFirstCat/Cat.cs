@@ -8,10 +8,10 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace MyFirstCat
 {
-    class Cat
+    class Cat(string name, DateTime birthDate) : Animal(name)
     {
         private string? _Color = null;
-        DateTime _BirthDate;
+        DateTime _BirthDate = birthDate;
         public string Color {
             get { return _Color; }
             set {
@@ -21,12 +21,5 @@ namespace MyFirstCat
         }
 
         public int Age { get { return (DateTime.Now.Year - _BirthDate.Year); } }
-        public Cat(DateTime birthDate)
-        { 
-            _BirthDate = birthDate; 
-        }
-        
-        
-
     }
 }

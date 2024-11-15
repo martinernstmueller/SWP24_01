@@ -2,8 +2,8 @@
 using MyFirstCat;
 
 Console.WriteLine("Hello, World!");
-Cat myCat = new Cat(new DateTime(2022, 07, 13)); // erstellt eine Instanz der Klasse Cat und weißt sie der Variable mit dem Namen myCat zu
+Cat myCat = new Cat("Kitty", new DateTime(2022, 07, 13)); // erstellt eine Instanz der Klasse Cat und weißt sie der Variable mit dem Namen myCat zu
 myCat.Color = "black";
 
 
-Console.WriteLine("The color of my Cat is " + myCat.Color + " and she is " + myCat.Age + " years old...");
+Console.WriteLine("The color of my Cat " + myCat.Name + " is " + myCat.Color + " and she is " + myCat.Age + " years old...");
