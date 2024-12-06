@@ -18,7 +18,5 @@
         {
             return "I am a Being ";
         }
-
-
     }
 }

@@ -15,6 +15,4 @@
             get { return _animals.Where(a => a.GetType() == typeof(Cat)).Count(); }
          }
     }
-
-    
 }
