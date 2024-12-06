@@ -8,11 +8,11 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace MyFirstCat
 {
-    class Cat(string name, string color, DateTime birthDate) : Animal(name, color, birthDate) 
+    class Dog(string name, string color, DateTime birthDate) : Animal(name, color, birthDate) 
     {
         public override string gibTypischenLautVonDir()
         {
-            return "Miau";
+            return "Wuf wuf";
         }
     }
 
