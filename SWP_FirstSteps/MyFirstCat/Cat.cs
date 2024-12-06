@@ -8,18 +8,11 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace MyFirstCat
 {
-    class Cat(string name, DateTime birthDate) : Animal(name)
+    class Cat(string name, string color, DateTime birthDate) : Animal(name, color, birthDate) 
     {
-        private string? _Color = null;
-        DateTime _BirthDate = birthDate;
-        public string Color {
-            get { return _Color; }
-            set {
-                if (_Color == value) return;
-                _Color = value;
-                } 
+        public override string gibTypischenLautVonDir()
+        {
+            return "Miau";
         }
-
-        public int Age { get { return (DateTime.Now.Year - _BirthDate.Year); } }
     }
 }
