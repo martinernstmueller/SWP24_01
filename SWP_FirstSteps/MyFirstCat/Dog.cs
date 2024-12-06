@@ -7,6 +7,4 @@
             return "Wuf wuf";
         }
     }
-
-    
 }
