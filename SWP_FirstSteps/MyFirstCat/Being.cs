@@ -2,7 +2,6 @@
 {
     class Being
     {
-        public string ColorOfAnimal { get; set; }
         public string AnimalsColor { get; set; }
         public string Name { get; set; }
         private DateTime _birthDate { get; set; }
