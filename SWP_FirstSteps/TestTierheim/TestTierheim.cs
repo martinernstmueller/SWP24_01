@@ -2,7 +2,6 @@ using MyFirstCat;
 
 namespace TestTierheim
 {
-
     public class TestTierheim
     {
         [SetUp]
