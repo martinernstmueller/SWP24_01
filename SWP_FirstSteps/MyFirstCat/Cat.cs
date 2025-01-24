@@ -8,7 +8,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace MyFirstCat
 {
-    class Cat(string name, string color, DateTime birthDate) : Animal(name, color, birthDate) 
+    public class Cat(string name, string color, DateTime birthDate) : Animal(name, color, birthDate) 
     {
         public override string gibTypischenLautVonDir()
         {

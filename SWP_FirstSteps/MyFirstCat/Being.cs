@@ -1,6 +1,6 @@
 ﻿namespace MyFirstCat
 {
-    class Being
+    public class Being
     {
         public string Color { get; set; }
         public string Name { get; set; }

@@ -1,6 +1,6 @@
 ﻿namespace MyFirstCat
 {
-    class Tierheim()
+    public class Tierheim()
     {
         private List<Animal> _animals = new List<Animal>();
 
