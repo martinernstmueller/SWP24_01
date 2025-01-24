@@ -5,7 +5,9 @@ VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFirstConsoleApp", "MyFirstConsoleApp\MyFirstConsoleApp.csproj", "{88505FF9-FC2B-43BC-9BA8-361F41F00384}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstCat", "MyFirstCat\MyFirstCat.csproj", "{8FC622A6-4DBA-4AF3-AEDE-1E3303657929}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFirstCat", "MyFirstCat\MyFirstCat.csproj", "{8FC622A6-4DBA-4AF3-AEDE-1E3303657929}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTierheim", "TestTierheim\TestTierheim.csproj", "{A58689FF-DB33-405D-B7FB-5A02AB968376}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8FC622A6-4DBA-4AF3-AEDE-1E3303657929}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FC622A6-4DBA-4AF3-AEDE-1E3303657929}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FC622A6-4DBA-4AF3-AEDE-1E3303657929}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A58689FF-DB33-405D-B7FB-5A02AB968376}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A58689FF-DB33-405D-B7FB-5A02AB968376}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A58689FF-DB33-405D-B7FB-5A02AB968376}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A58689FF-DB33-405D-B7FB-5A02AB968376}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
